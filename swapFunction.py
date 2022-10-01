@@ -2,8 +2,8 @@
 
 x=input("Enter the first number: ")
 y=input("Enter the second number: ")
-firstSwapped = int(y)
-secondSwapped = int(x)
-
-print("The 1st swapped number is:", firstSwapped)
-print("The 2nd swapped number is:", secondSwapped)
+temp=x
+x=y
+y=temp
+print("The 1st swapped number is:", int(x))
+print("The 2nd swapped number is:", int(y))
