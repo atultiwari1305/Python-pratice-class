@@ -14,7 +14,7 @@ if servicePeriod > 10:
     print("The net bonus amount will be: ", ((currentSalary*0.1)+currentSalary))
 elif servicePeriod >= 6 and servicePeriod <= 10:
     print("The net bonus amount will be: " , ((currentSalary*0.08)+currentSalary))
-elif servicePeriod < 6 and servicePeriod>0 :
+elif servicePeriod < 6 and servicePeriod>0:
     print("The net bonus amount will be: ", ((currentSalary*0.05)+currentSalary))
 else:
     print("The net bonus amount will be: ", currentSalary)
