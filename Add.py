@@ -2,7 +2,7 @@
 #create a third variable(sum) and add x and y
 #print the sum
 
-x = 34.4
-y = 265.6
-sum = x + y
+x = input("Enter the first number:")
+y = input("Enter the second number")
+sum = int(x) + int(y)
 print("The answer is:", sum)
