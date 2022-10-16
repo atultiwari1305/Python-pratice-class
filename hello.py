@@ -1,4 +1,4 @@
 firstName = "ATUL"
 secondName = "RAJ"
 thirdName = "MANAV"
-print (firstName , secondName , thirdName)
+print(firstName , secondName , thirdName)
