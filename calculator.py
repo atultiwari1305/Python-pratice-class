@@ -1,6 +1,3 @@
-from ast import operator
-
-
 num1=float(input("Enter your number: "))
 num2=float(input("Enter your number: "))
 op=input("Enter your operator: ")
